@@ -142,10 +142,10 @@ def analyze_text_input(text):
 
     # Format prediction result
     if label == "Fake":
-        prediction_result = f"🚨 FAKE NEWS DETECTED"
+        prediction_result = f"The news appears to be Fake!!"
         result_color = "#dc3545"
     else:
-        prediction_result = f"✅ NEWS APPEARS AUTHENTIC"
+        prediction_result = f" News Appears to be authentic"
         result_color = "#28a745"
 
     confidence_text = f"Confidence: {confidence:.1f}%"
